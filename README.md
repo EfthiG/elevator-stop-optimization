@@ -48,14 +48,14 @@ Expected output:
 
 ```text
 Last stop at floor 11
-Cost is:4
+Cost is: 4
 ```
 
 For the same input, `liftdp` also prints its cost table and the selected stops:
 
 ```text
-Lift stops are:7 11
-Cost is:4
+Lift stops are: 7 11
+Cost is: 4
 ```
 
 ## What this project demonstrates
@@ -65,7 +65,3 @@ Cost is:4
 - Dynamic-programming recurrence relations
 - Reconstructing selected stops from stored decisions
 - Working with C arrays, pointers, and dynamic memory allocation
-
-## Limitations
-
-This is an educational implementation rather than a production-ready elevator controller. In particular, the solvers use a fixed initial upper bound of `5000` for the cost, and input validation and memory handling have limitations. The implementations have not been benchmarked comprehensively.
